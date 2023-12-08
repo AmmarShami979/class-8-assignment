@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend><b>Login</b></legend>
+        <label><b>Username*</b></label><br>
+        <input type="text">
+        <br>
+        <label><b>Password*</b></label><br>
+        <input type="text"><br>
+    </fieldset>
+    
+    <fieldset>
+        <legend><b>Gender*</b></legend>
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male"><b>Male</b></label>
+
+        <input  id="female" type="radio" name="gender" value="f">
+        <label for="female"><b>Female</b></label>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Programming Skill</b></legend>
+        <br>
+        <input id="java" type="checkbox" name="Programming Skill" value="java">
+        <label for="java"><b>java</b></label>
+
+        <input  id="C++" type="checkbox" name="Programming Skill" value="C++">
+        <label for="C++"><b>C++</b></label>
+
+        <input  id="C#" type="checkbox" name="Programming Skill" value="C#">
+        <label for="C#"><b>C#</b></label>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Fruit</b></legend>
+        <p><b>Choose a fruit:</b>
+        <select name="Fruit">
+            <option value="Mango">Mango</option>
+            <option value="banana">Banana</option>
+            <option value="malta">Malta</option>
+            <option value="grap">Grap</option>
+            <option value="coconut">Coconut</option>
+
+        </select></p>
+    </fieldset>
+    <br>
+         <textarea name="coment" cols="50" rows="10" form="usrform" placeholder="Enter Your Comment Here....."></textarea>
+
+         <form action="/4index.html">
+            <input type="button" value="SEND"> <input type="button" value="RESET">
+         </form>
+</body>
+</html>
